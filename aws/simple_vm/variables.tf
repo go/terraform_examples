@@ -20,3 +20,7 @@ variable "key_name" {
 variable "instance_name" {
   type    = "string"
 }
+
+variable "workstation-external-cidr" {
+  type    = "string"
+}
